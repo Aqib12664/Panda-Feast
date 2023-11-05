@@ -1,0 +1,183 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0; 
+  box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+/* Navigation */
+#navbar {
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+
+}
+#navbar::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter:blur(20px);
+}
+
+/* Navigation : Logo ND Image */
+#logo {
+    margin: -24px 20px;
+    
+}
+
+#logo img {
+    height: 80px;
+    margin: 10px 6px;
+}
+
+/* Navigation :  List Style*/
+#navbar {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.solgan {
+    font-size: 2rem;
+    padding: 2px 12px;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+#navbar ul li a {
+    padding: 5px 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a:hover {
+    color: wheat;
+    background-color: black;
+
+}
+
+/* Home Section */
+#home {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 360px;
+    height: 550px;
+ 
+
+}
+
+ #home::before {
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+    z-index: -23;
+    opacity: 0.90;
+
+} 
+
+/* Services Srctiom */
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    border-radius: 32px;
+    padding: 34px;
+    margin: 2px 20px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 200px;
+    display: block;
+    margin: -11px -29px 34px 31px;
+    
+
+}
+
+
+
+/* utiltity classes and button */
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+.h_primary {
+    font-size: 2.5rem;
+    padding: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.h-secondary {
+    font-size: 2rem;
+    padding: 12px 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#lorem {
+    color: white;
+    font-size: 1.2rem;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    padding: 6px 23px;
+    border: 2px solid white;
+    border-radius: 23px;
+    background-color: #583030;
+    color: white;
+    margin: 12px 12px -156px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #583045;
+    ;
+    color: white;
+}
+
+center {
+    align-items: center;
+}
