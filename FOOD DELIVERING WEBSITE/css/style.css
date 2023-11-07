@@ -6,6 +6,9 @@
 
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -89,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3px 360px;
-    height: 550px;
+    height: 543px;
 
 
 }
@@ -109,18 +112,18 @@ body {
 
 /* Services Srctiom */
 
- #services-container::before {
+ /* #services-container::before {
     content: "";
     position: absolute;
      background: #E0AF8E; 
     margin: -8px 0px -14px 0px;
     width: 100%;
-    height: 80.9%;
+    height: 91.1%;
     z-index: -1;
      left: 0px; 
-    top: 607px;
+    top: 608px;
     opacity: 0.7;
-} 
+}  */
 
 #services {
     margin: 34px;
